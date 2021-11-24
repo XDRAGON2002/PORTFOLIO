@@ -1,0 +1,21 @@
+.nav {
+
+    display : flex;
+    color : white;
+    /* background : black; */
+    align-items : center;
+    justify-content : flex-start;
+}
+
+.nav ul {
+
+    list-style : none;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.nav ul li {
+
+    padding: 10px;
+}

@@ -1,0 +1,16 @@
+.card {
+
+    font-size: 16px;
+    text-align: center;
+    margin : 100px;
+    /* border : 5px solid black; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card:hover {
+
+    color : white;
+    background: #0f0e17;
+    cursor : pointer;
+}

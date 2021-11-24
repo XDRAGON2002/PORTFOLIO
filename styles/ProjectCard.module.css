@@ -1,0 +1,59 @@
+.card {
+
+    font-size: 16px;
+    text-align: center;
+    margin : 100px;
+    display : flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.para {
+
+    font-size: 22px;
+}
+
+.card:hover {
+
+    color : whitesmoke;
+    background: #0f0e17;
+}
+
+.card_left {
+
+    order : 0;
+    width : 50%;
+}
+
+.card_right {
+
+    order : 1;
+    width : 50%;
+}
+
+.image {
+
+    margin : 10px;
+    width : 48px;
+    height : 48px;
+}
+
+.btn {
+
+    font-size: 16px;
+    font-weight: bold;
+    color : whitesmoke;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    width : 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10%;
+}
+
+.btn:hover {
+    
+    color : #0f0e17;
+    background: whitesmoke;
+    cursor: pointer;
+}
