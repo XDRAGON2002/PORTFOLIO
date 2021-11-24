@@ -91,6 +91,6 @@ export const items = [
         Personal portfolio website.
         Created using NextJS and hosted on Vercel.
         `,
-        link : ""
+        link : "https://github.com/XDRAGON2002/PORTFOLIO"
     },
 ]
