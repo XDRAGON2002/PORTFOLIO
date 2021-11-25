@@ -213,13 +213,13 @@ export const items = [
     {
         id : "36",
         title : "canva",
-        link : "http://assets.stickpng.com/images/5842a622a6515b1e0ad75af9.png",
+        link : "https://img.icons8.com/doodle/96/000000/canva.png",
         body : "DD"
     },
     {
         id : "37",
         title : "redux",
-        link : "http://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png",
+        link : "https://img.icons8.com/color/96/000000/redux.png",
         body : "DD"
     },
     {
