@@ -1,13 +1,14 @@
 import {items} from "../../../data/blog.data"
-import styles from "../../../styles/BlogPage.module.css"
 
 const BlogPage = ({item}) => {
 
     return (
-        <div className = {styles.container}>
-            <h1>{item.title}</h1>
-            <h4>{item.brief}</h4>
-            <p>{item.body}</p>
+        <div className = "justify-center items-center text-center mx-5">
+            <h1 className = "text-5xl">{item.title}</h1>
+            <br />
+            <h4 className = "text-4xl">{item.brief}</h4>
+            <br />
+            <p className = "text-2xl">{item.body}</p>
         </div>
     )
 }

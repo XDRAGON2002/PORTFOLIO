@@ -5,10 +5,10 @@ export const items = [
         location : "Digipplus",
         duration : "October 2021 - November 2021"
     },
-    // {
-    //     id : "2",
-    //     title : "Backend Developer Intern",
-    //     location : "VahanKart",
-    //     duration : "October 2021 - Current"
-    // },
+    {
+        id : "2",
+        title : "Backend Developer Intern",
+        location : "VahanKart",
+        duration : "October 2021 - Current"
+    },
 ]

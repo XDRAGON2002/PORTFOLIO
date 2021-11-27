@@ -1,10 +1,9 @@
 import SkillCard from "./SkillCard"
-import styles from "../styles/SkillCardList.module.css"
 
 const SkillCardList = ({items}) => {
 
     return (
-        <div className = {styles.container}>
+        <div className = "flex flex-wrap mx-20 glass">
             {items.map(item => (
                 <SkillCard key = {item.id} item = {item} />
             ))}

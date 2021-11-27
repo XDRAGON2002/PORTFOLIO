@@ -1,10 +1,9 @@
 import ExperienceCard from "./ExperienceCard"
-import styles from "../styles/ExperienceCardList.module.css"
 
 const ExperienceCardList = ({items}) => {
 
     return (
-        <div className = {styles.container}>
+        <div className = "mx-20">
             {items.map(item => (
                 <ExperienceCard key = {item.id} item = {item} />
             ))}

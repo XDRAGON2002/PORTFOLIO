@@ -1,14 +1,14 @@
 import Link from "next/link"
-import styles from "../styles/BlogCard.module.css"
 
 const BlogCard = ({item}) => {
 
     return (
-        <div className = {styles.card}>
+        <div className = "mx-20 my-20 px-10 py-10 glass cursor-pointer">
             <Link href = {`/blog/${item.id}`}>
                 <div>
-                    <h1>{item.title}</h1>
-                    <h4>{item.brief}</h4>
+                    <h1 className = "text-4xl">{item.title}</h1>
+                    <br />
+                    <h4 className = "text-2xl">{item.brief}</h4>
                 </div>
             </Link>
         </div>

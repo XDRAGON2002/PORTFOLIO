@@ -1,13 +1,14 @@
 import ExperienceCardList from "../components/ExperienceCardList"
 import {items} from "../data/experience.data"
-import styles from "../styles/Experience.module.css"
 
 const experience = () => {
 
     return (
-        <div className = {styles.container}>
-            <h1>EXPERIENCE</h1>
-            <ExperienceCardList items = {items} />
+        <div className = "flex justify-center items-center text-center mx-10">
+            <div>
+                <h1 className = "font-bold text-5xl">EXPERIENCE</h1>
+                <ExperienceCardList items = {items} />
+            </div>
         </div>
     )
 }
