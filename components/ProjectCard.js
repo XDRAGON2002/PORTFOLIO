@@ -2,7 +2,7 @@ const ProjectCard = ({item,side}) => {
 
     return (
         <div className = "flex flex-wrap justify-center items-center text-center mx-2 my-20">
-            <div className = {side ? "order-first mx-10" : "order-last mx-10"}>
+            <div className = {side ? "lg:order-first mx-10" : "lg:order-last mx-10"}>
                 <div className = "glass p-5">
                     <h1 className = "text-4xl py-4">{item.title}</h1>
                     <div className = "flex justify-center items-center text-center">
@@ -17,9 +17,13 @@ const ProjectCard = ({item,side}) => {
                         </button>
                     </a>
                 </div>
+                <br />
+                <br />
             </div>
             <div className = {side ? "w-1/2" : "w-1/2"}>
                 <p className = "text-2xl">{item.body}</p>
+                <br />
+                <br />
             </div>
         </div>
     )

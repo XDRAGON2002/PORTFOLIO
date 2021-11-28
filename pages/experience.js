@@ -6,6 +6,8 @@ const experience = () => {
     return (
         <div className = "flex justify-center items-center text-center mx-10">
             <div>
+                <br />
+                <br />
                 <h1 className = "font-bold text-5xl">EXPERIENCE</h1>
                 <ExperienceCardList items = {items} />
             </div>
