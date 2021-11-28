@@ -1,4 +1,5 @@
-export const items = [
+export const languages = [
+
     {
         id : "1",
         title : "python",
@@ -22,7 +23,28 @@ export const items = [
         title : "bash",
         link : "https://img.icons8.com/plasticine/100/000000/bash.png",
         body : "DD"
+    }, 
+    {
+        id : "25",
+        title : "css",
+        link : "https://img.icons8.com/color/96/000000/css3.png",
+        body : "DD"
     },
+    {
+        id : "26",
+        title : "C",
+        link : "https://img.icons8.com/color/96/000000/c-programming.png",
+        body : "DD"
+    },
+    {
+        id : "43",
+        title : "html",
+        link : "https://img.icons8.com/color/96/000000/html-5.png",
+        body : "DD"
+    },
+]
+
+export const web_dev = [
 
     {
         id : "5",
@@ -35,6 +57,42 @@ export const items = [
         title : "bootstrap",
         link : "https://img.icons8.com/color/96/000000/bootstrap.png",
         body : "BB"
+    },
+    {
+        id : "40",
+        title : "tailwindcss",
+        link : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
+        body : "DD"
+    },
+    {
+        id : "37",
+        title : "redux",
+        link : "https://img.icons8.com/color/96/000000/redux.png",
+        body : "DD"
+    },
+    {
+        id : "29",
+        title : "nextjs",
+        link : "https://images.ctfassets.net/hb3id6ag4raq/6NcXL0fTlSXR9tVL14LYJ/c6a2a3dea44cbf46826cd6d5596b5797/apple-touch-icon.png",
+        body : "DD"
+    },
+    {
+        id : "22",
+        title : "gatsby",
+        link : "https://img.icons8.com/fluency/96/000000/gatsbyjs.png",
+        body : "AA"
+    },
+    {
+        id : "32",
+        title : "materialui",
+        link : "https://img.icons8.com/color/96/000000/material-ui.png",
+        body : "DD"
+    },
+    {
+        id : "38",
+        title : "firebase",
+        link : "https://img.icons8.com/color/96/000000/firebase.png",
+        body : "DD"
     },
     {
         id : "7",
@@ -55,6 +113,22 @@ export const items = [
         body : "AA"
     },
     {
+        id : "42",
+        title : "expressjs",
+        link : "https://camo.githubusercontent.com/6686b9ef0e21e13c9e7c846340303765c0f36e40a0490bcad453ea9d0d433ea0/68747470733a2f2f7777772e6d656d656e746f746563682e696e2f6173736574732f696d616765732f69636f6e732f657870726573732e706e67",
+        body : "AA"
+    },
+    {
+        id : "39",
+        title : "graphql",
+        link : "https://img.icons8.com/color/96/000000/graphql.png",
+        body : "DD"
+    },
+]
+
+export const database_systems = [
+
+    {
         id : "10",
         title : "mysql",
         link : "https://img.icons8.com/color/96/000000/mysql-logo.png",
@@ -72,6 +146,10 @@ export const items = [
         link : "https://img.icons8.com/color/96/000000/mongodb.png",
         body : "DD"
     },
+]
+
+export const machine_learning = [
+
     {
         id : "13",
         title : "tensorflow",
@@ -84,6 +162,62 @@ export const items = [
         link : "https://img.icons8.com/color/96/000000/opencv.png",
         body : "BB"
     },
+    {
+        id : "30",
+        title : "keras",
+        link : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png",
+        body : "DD"
+    },
+]
+
+export const devops_cloud = [
+
+    {
+        id : "18",
+        title : "docker",
+        link : "https://img.icons8.com/fluency/96/000000/docker.png",
+        body : "BB"
+    },
+    {
+        id : "23",
+        title : "kubernetes",
+        link : "https://img.icons8.com/color/96/000000/kubernetes.png",
+        body : "BB"
+    },
+    {
+        id : "24",
+        title : "jenkins",
+        link : "https://img.icons8.com/color/96/000000/jenkins.png",
+        body : "CC"
+    },
+    {
+        id : "21",
+        title : "gcp",
+        link : "https://img.icons8.com/color/96/000000/google-cloud.png",
+        body : "DD"
+    },
+    {
+        id : "19",
+        title : "heroku",
+        link : "https://img.icons8.com/color/96/000000/heroku.png",
+        body : "CC"
+    },
+    {
+        id : "27",
+        title : "netlify",
+        link : "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg",
+        body : "DD"
+    },
+    {
+        id : "28",
+        title : "vercel",
+        link : "https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67",
+        body : "DD"
+    },
+]
+
+export const tools = [
+
     {
         id : "15",
         title : "git",
@@ -103,16 +237,10 @@ export const items = [
         body : "AA"
     },
     {
-        id : "18",
-        title : "docker",
-        link : "https://img.icons8.com/fluency/96/000000/docker.png",
-        body : "BB"
-    },
-    {
-        id : "19",
-        title : "heroku",
-        link : "https://img.icons8.com/color/96/000000/heroku.png",
-        body : "CC"
+        id : "35",
+        title : "scrapy",
+        link : "https://cdn2.hubspot.net/hubfs/4367560/Imported_Blog_Media/scrapy.png",
+        body : "DD"
     },
     {
         id : "20",
@@ -121,75 +249,9 @@ export const items = [
         body : "DD"
     },
     {
-        id : "21",
-        title : "gcp",
-        link : "https://img.icons8.com/color/96/000000/google-cloud.png",
-        body : "DD"
-    },
-    {
-        id : "22",
-        title : "gatsby",
-        link : "https://img.icons8.com/fluency/96/000000/gatsbyjs.png",
-        body : "AA"
-    },
-    {
-        id : "23",
-        title : "kubernetes",
-        link : "https://img.icons8.com/color/96/000000/kubernetes.png",
-        body : "BB"
-    },
-    {
-        id : "24",
-        title : "jenkins",
-        link : "https://img.icons8.com/color/96/000000/jenkins.png",
-        body : "CC"
-    },
-    {
-        id : "25",
-        title : "css",
-        link : "https://img.icons8.com/color/96/000000/css3.png",
-        body : "DD"
-    },
-    {
-        id : "26",
-        title : "C",
-        link : "https://img.icons8.com/color/96/000000/c-programming.png",
-        body : "DD"
-    },
-    {
-        id : "27",
-        title : "netlify",
-        link : "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg",
-        body : "DD"
-    },
-    {
-        id : "28",
-        title : "vercel",
-        link : "https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67",
-        body : "DD"
-    },
-    {
-        id : "29",
-        title : "nextjs",
-        link : "https://images.ctfassets.net/hb3id6ag4raq/6NcXL0fTlSXR9tVL14LYJ/c6a2a3dea44cbf46826cd6d5596b5797/apple-touch-icon.png",
-        body : "DD"
-    },
-    {
-        id : "30",
-        title : "keras",
-        link : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png",
-        body : "DD"
-    },
-    {
         id : "31",
         title : "postman",
         link : "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-        body : "DD"
-    },
-    {
-        id : "32",
-        title : "materialui",
-        link : "https://img.icons8.com/color/96/000000/material-ui.png",
         body : "DD"
     },
     {
@@ -205,39 +267,9 @@ export const items = [
         body : "DD"
     },
     {
-        id : "35",
-        title : "scrapy",
-        link : "https://cdn2.hubspot.net/hubfs/4367560/Imported_Blog_Media/scrapy.png",
-        body : "DD"
-    },
-    {
         id : "36",
         title : "canva",
         link : "https://img.icons8.com/doodle/96/000000/canva.png",
-        body : "DD"
-    },
-    {
-        id : "37",
-        title : "redux",
-        link : "https://img.icons8.com/color/96/000000/redux.png",
-        body : "DD"
-    },
-    {
-        id : "38",
-        title : "firebase",
-        link : "https://img.icons8.com/color/96/000000/firebase.png",
-        body : "DD"
-    },
-    {
-        id : "39",
-        title : "graphql",
-        link : "https://img.icons8.com/color/96/000000/graphql.png",
-        body : "DD"
-    },
-    {
-        id : "40",
-        title : "tailwindcss",
-        link : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
         body : "DD"
     },
     {
