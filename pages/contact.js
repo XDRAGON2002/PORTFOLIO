@@ -10,6 +10,7 @@ const contact = () => {
                 <br />
                 <h1 className = "font-bold text-5xl">CONTACT</h1>
                 <br />
+                <br />
                 <div className = "flex flex-wrap justify-center item-center text-center">
                     <form className = "order-first md:w-2/5 mx-5 my-10 glass p-4 break-words">
                         <input className = "w-full text-2xl font-semibold rounded-md py-5 px-2 my-5 bg-transparent outline-none text-whitehue border-r-2 border-whitehue focus:bg-whitehue focus:text-blackhue" type = "text" placeholder = "NAME"></input>

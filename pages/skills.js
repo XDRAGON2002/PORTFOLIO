@@ -13,6 +13,8 @@ const skills = () => {
                 <br />
                 <br />
                 <SkillCardList items = {items} />
+                <br />
+                <br />
             </div>
         </div>
     )

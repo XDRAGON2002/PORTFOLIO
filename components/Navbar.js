@@ -36,10 +36,10 @@ const Navbar = () => {
                 </ul>
             </nav>
             <div className = "block flex justify-end md:hidden">
-                {!show && <button className = "my-4 mx-6 text-1xl" onClick = {handleShow}>HAMBURGER</button>}
+                {!show && <button className = "my-4 mx-6 text-1xl" onClick = {handleShow}><img src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png"/></button>}
                 {show && <nav className = "my-4 mx-6 text-1xl">
-                <ul className = "flex flex-col justify-end">
-                    <button className = "text-1xl" onClick = {handleShow}>CLOSE</button>
+                <ul className = "flex flex-col items-end justify-end">
+                    <button className = "mx-2 text-1xl" onClick = {handleShow}><img src="https://img.icons8.com/material-rounded/24/ffffff/close-window.png"/></button>
                     <li className = "mx-2 my-1">
                         <Link href = "/">ABOUT</Link>
                     </li>

@@ -1,8 +1,10 @@
+import { DivEvent } from "tsparticles/Options/Classes/Interactivity/Events/DivEvent"
+
 const Home = () => {
 
     return (
         <div className = "flex justify-center items-center h-screen text-center mx-10">
-            <div className = "glass px-10 py-10">
+            <div className = "glass px-10 py-10 my-auto mt-20 md:my-0">
                 <h1 className = "text-5xl">Hi, I am <strong>DRAGON</strong> !</h1>
                 <br/>
                 <p className = "text-2xl">
