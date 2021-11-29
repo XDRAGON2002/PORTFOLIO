@@ -38,25 +38,53 @@ const Navbar = () => {
             <div className = "block flex justify-end md:hidden">
                 {!show && <button className = "my-4 mx-6 text-1xl" onClick = {handleShow}><img src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png"/></button>}
                 {show && <nav className = "my-4 mx-6 text-1xl">
-                <ul className = "flex flex-col items-end justify-end">
-                    <button className = "mx-2 text-1xl" onClick = {handleShow}><img src="https://img.icons8.com/material-rounded/24/ffffff/close-window.png"/></button>
+                <ul className = "flex flex-col items-end justify-end" onClick = {handleShow}>
+                    <button className = "mx-2 text-1xl"><img src="https://img.icons8.com/material-rounded/24/ffffff/close-window.png"/></button>
                     <li className = "mx-2 my-1">
-                        <Link href = "/">ABOUT</Link>
+                        <Link href = "/">
+                            <div className = "flex">
+                                ABOUT &#160;
+                                <img src="https://img.icons8.com/material-rounded/24/ffffff/home.png"/>
+                            </div>
+                        </Link>
                     </li>
                     <li className = "mx-2 my-1">
-                        <Link href = "/skills">SKILLS</Link>
+                        <Link href = "/skills">
+                            <div className = "flex">
+                                SKILLS &#160;
+                                <img src="https://img.icons8.com/material-sharp/24/ffffff/resume.png"/>
+                            </div>
+                        </Link>
                     </li >
                     <li className = "mx-2 my-1">
-                        <Link href = "/experience">EXPERIENCE</Link>
+                        <Link href = "/experience">
+                            <div className = "flex">
+                                EXPERIENCE &#160;
+                                <img src="https://img.icons8.com/material-sharp/24/ffffff/internship.png"/>
+                            </div>
+                        </Link>
                     </li>
                     <li className = "mx-2 my-1">
-                        <Link href = "/projects">PROJECTS</Link>
+                        <Link href = "/projects">
+                            <div className = "flex">
+                                PROJECTS &#160;
+                                <img src="https://img.icons8.com/material-rounded/24/ffffff/group-of-projects.png"/>
+                            </div>
+                        </Link>
                     </li>
                     <li className = "mx-2 my-1">
-                        <Link href = "/contact">CONTACT</Link>
+                        <Link href = "/contact">
+                            <div className = "flex">
+                                CONTACT &#160;
+                                <img src="https://img.icons8.com/material-rounded/24/ffffff/contact-card.png"/>
+                            </div></Link>
                     </li>
                     <li className = "mx-2 my-1">
-                        <Link href = "/blog">BLOG</Link>
+                        <Link href = "/blog">
+                            <div className = "flex">
+                                BLOG &#160;
+                                <img src="https://img.icons8.com/material-rounded/24/ffffff/blog.png"/>
+                            </div></Link>
                     </li>
                 </ul>
             </nav>}
