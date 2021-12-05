@@ -15,24 +15,53 @@ const Navbar = () => {
             <nav className = "hidden my-4 mx-4 text-1xl md:block">
                 <ul className = "flex justify-end">
                     <li className = "mx-2">
-                        <Link href = "/">ABOUT</Link>
+                        <Link href = "/">
+                            <div className = "flex cursor-pointer">
+                                ABOUT &#160;
+                                <img src="https://img.icons8.com/material-rounded/24/ffffff/home.png"/>
+                            </div>
+                        </Link>
                     </li>
                     <li className = "mx-2">
-                        <Link href = "/skills">SKILLS</Link>
+                        <Link href = "/skills">
+                            <div className = "flex cursor-pointer">
+                                SKILLS &#160;
+                                <img src="https://img.icons8.com/material-sharp/24/ffffff/resume.png"/>
+                            </div>
+                        </Link>
                     </li >
                     <li className = "mx-2">
-                        <Link href = "/experience">EXPERIENCE</Link>
+                        <Link href = "/experience">
+                            <div className = "flex cursor-pointer">
+                                EXPERIENCE &#160;
+                                <img src="https://img.icons8.com/material-sharp/24/ffffff/internship.png"/>
+                            </div>
+                        </Link>
                     </li>
                     <li className = "mx-2">
-                        <Link href = "/projects">PROJECTS</Link>
+                        <Link href = "/projects">
+                            <div className = "flex cursor-pointer">
+                                PROJECTS &#160;
+                                <img src="https://img.icons8.com/material-rounded/24/ffffff/group-of-projects.png"/>
+                            </div>
+                        </Link>
                     </li>
                     <li className = "mx-2">
-                        <Link href = "/contact">CONTACT</Link>
+                        <Link href = "/contact">
+                            <div className = "flex cursor-pointer">
+                                CONTACT &#160;
+                                <img src="https://img.icons8.com/material-rounded/24/ffffff/contact-card.png"/>
+                            </div>
+                        </Link>
                     </li>
                     <li className = "mx-2">
-                        <Link href = "/blog">BLOG</Link>
+                        <Link href = "/blog">
+                            <div className = "flex cursor-pointer">
+                                BLOG &#160;
+                                <img src="https://img.icons8.com/material-rounded/24/ffffff/blog.png"/>
+                            </div>
+                        </Link>
                     </li>
-                    {/* <button className = "mx-2" onClick = {handleHamburger}>HAMBURGER</button> */}
                 </ul>
             </nav>
             <div className = "block flex justify-end md:hidden">
@@ -77,14 +106,16 @@ const Navbar = () => {
                             <div className = "flex">
                                 CONTACT &#160;
                                 <img src="https://img.icons8.com/material-rounded/24/ffffff/contact-card.png"/>
-                            </div></Link>
+                            </div>
+                        </Link>
                     </li>
                     <li className = "mx-2 my-1">
                         <Link href = "/blog">
                             <div className = "flex">
                                 BLOG &#160;
                                 <img src="https://img.icons8.com/material-rounded/24/ffffff/blog.png"/>
-                            </div></Link>
+                            </div>
+                        </Link>
                     </li>
                 </ul>
             </nav>}

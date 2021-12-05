@@ -13,13 +13,13 @@ const contact = () => {
                 <br />
                 <div className = "flex flex-wrap justify-center item-center text-center">
                     <form className = "order-first md:w-2/5 mx-5 my-10 glass p-4 break-words">
-                        <input className = "w-full text-2xl font-semibold rounded-md py-5 px-2 my-5 bg-transparent outline-none text-whitehue border-r-2 border-whitehue focus:bg-whitehue focus:text-blackhue" type = "text" placeholder = "NAME"></input>
+                        <input className = "w-full text-2xl font-semibold py-5 px-2 my-5 bg-transparent outline-none text-whitehue border-r-2 border-whitehue focus:bg-whitehue focus:text-blackhue" type = "text" placeholder = "NAME"></input>
                         <br />
-                        <input className = "w-full text-2xl font-semibold rounded-md py-5 px-2 my-5 bg-transparent outline-none text-whitehue border-r-2 border-whitehue focus:bg-whitehue focus:text-blackhue" type = "email" placeholder = "EMAIL"></input>
+                        <input className = "w-full text-2xl font-semibold py-5 px-2 my-5 bg-transparent outline-none text-whitehue border-r-2 border-whitehue focus:bg-whitehue focus:text-blackhue" type = "email" placeholder = "EMAIL"></input>
                         <br />
-                        <textarea className = "w-full text-2xl font-semibold rounded-md overflow-hidden py-5 px-2 my-5 bg-transparent outline-none text-whitehue border-r-2 border-whitehue focus:bg-whitehue focus:text-blackhue" placeholder = "MESSAGE"></textarea>
+                        <textarea className = "w-full text-2xl font-semibold overflow-hidden py-5 px-2 my-5 bg-transparent outline-none text-whitehue border-r-2 border-whitehue focus:bg-whitehue focus:text-blackhue" placeholder = "MESSAGE"></textarea>
                         <br />
-                        <button className = "font-bold rounded-md border-solid border-2 border-white p-2 hover:bg-whitehue hover:text-blackhue" type = "submit">SEND</button>
+                        <button className = "font-bold rounded-full border-solid border-2 border-white p-2 hover:bg-whitehue hover:text-blackhue" type = "submit">SEND</button>
                     </form>
                     <div className = "order-last md:w-2/5 mx-5 my-10 glass p-4 break-words">
                         <h4 className = "text-4xl">OTHER MEANS</h4>

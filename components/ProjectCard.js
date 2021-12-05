@@ -12,7 +12,7 @@ const ProjectCard = ({item,side}) => {
                     </div>
                     <br />
                     <a href = {item.link}>
-                        <button className = "font-bold rounded-md border-solid border-2 border-white p-2 hover:bg-whitehue hover:text-blackhue">
+                        <button className = "font-bold rounded-full border-solid border-2 border-white p-2 hover:bg-whitehue hover:text-blackhue">
                             CODE
                         </button>
                     </a>
