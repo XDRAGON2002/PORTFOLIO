@@ -42,6 +42,12 @@ export const languages = [
         link : "https://img.icons8.com/color/96/000000/html-5.png",
         body : "DD"
     },
+    {
+        id : "45",
+        title : "go",
+        link : "https://img.icons8.com/color/96/000000/golang.png",
+        body : "DD"
+    }
 ]
 
 export const web_dev = [
@@ -124,6 +130,12 @@ export const web_dev = [
         link : "https://img.icons8.com/color/96/000000/graphql.png",
         body : "DD"
     },
+    {
+        id : "44",
+        title : "fastapi",
+        link : "https://cdn.worldvectorlogo.com/logos/fastapi.svg",
+        body : "DD"
+    },
 ]
 
 export const database_systems = [
@@ -168,6 +180,12 @@ export const machine_learning = [
         link : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png",
         body : "DD"
     },
+    {
+        id : "46",
+        title : "pytorch",
+        link : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/640px-PyTorch_logo_icon.svg.png",
+        body : "DD"
+    }
 ]
 
 export const devops_cloud = [
