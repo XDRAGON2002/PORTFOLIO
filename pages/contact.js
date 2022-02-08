@@ -1,10 +1,17 @@
 import {FaGithub,FaLinkedin} from "react-icons/fa"
 import {SiCodeforces,SiCodechef,SiHackerrank,SiHackerearth} from "react-icons/si"
+import { motion } from "framer-motion"
+
+const variants = {
+    initial: {opacity: 0, x: 200, y: 200, scale: 0.8},
+    animate: {opacity: 1, x: 0, y: 0, scale: 1},
+    exit: {opacity: 0, x: 200, y: 200, scale: 0.8}
+}
 
 const contact = () => {
 
     return (
-        <div>
+        <motion.div initial = "initial" animate = "animate" exit = "exit" variants = {variants} >
             <div className = "text-center">
                 <br />
                 <br />
@@ -51,7 +58,7 @@ const contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

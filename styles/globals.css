@@ -20,6 +20,14 @@ a {
     color : whitesmoke;
 }
 
+*{
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 #particles-js {
     position:fixed !important;
     left:0;

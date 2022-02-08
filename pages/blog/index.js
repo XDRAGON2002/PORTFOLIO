@@ -1,10 +1,17 @@
 import BlogCardList from "../../components/BlogCardList"
 import {items} from "../../data/blog.data"
+import { motion } from "framer-motion"
+
+const variants = {
+    initial: {opacity: 0, x: -200},
+    animate: {opacity: 1, x: 0},
+    exit: {}
+}
 
 const blog = () => {
 
     return (
-        <div className = "flex justify-center items-center text-center mx-5">
+        <motion.div initial = "initial" animate = "animate" exit = "exit" variants = {variants} className = "flex justify-center items-center text-center mx-5">
             <div>
                 <br />
                 <br />
@@ -13,7 +20,7 @@ const blog = () => {
                 <h4 className = "text-3xl">Stay Tuned In For The Upcoming Blogs !</h4>
                 <BlogCardList items = {items} />
             </div>
-        </div>
+        </motion.div>
     )
 }
 

@@ -1,9 +1,15 @@
-import { DivEvent } from "tsparticles/Options/Classes/Interactivity/Events/DivEvent"
+import { motion } from "framer-motion"
+
+const variants = {
+    initial: {opacity: 0, scale: 0.4},
+    animate: {opacity: 1, scale: 1},
+    exit: {opacity: 0, scale: 0.4}
+}
 
 const Home = () => {
 
     return (
-        <div className = "flex justify-center items-center h-screen text-center mx-10">
+        <motion.div initial = "initial" animate = "animate" exit = "exit" variants = {variants} className = "flex justify-center items-center h-screen text-center mx-10">
             <div className = "glass px-10 py-10 my-auto mt-20 md:my-0">
                 <h1 className = "text-5xl">Hi, I am <strong>DRAGON</strong> !</h1>
                 <br/>
@@ -18,7 +24,7 @@ const Home = () => {
                     Welcome to my site ! Have a great time !
                 </p>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

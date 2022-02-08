@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import Particles from 'react-particles-js'
+import { AnimatePresence } from 'framer-motion'
 import '../styles/globals.css'
 
 const MyApp = ({ Component, pageProps }) => {
@@ -7,7 +8,9 @@ const MyApp = ({ Component, pageProps }) => {
     return (
         <div>
             <Layout>
-                <Component {...pageProps} />
+                <AnimatePresence exitBeforeEnter >
+                    <Component {...pageProps} />
+                </AnimatePresence>
             </Layout>
             <Particles id="particles-js" params={{
                 particles: {
