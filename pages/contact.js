@@ -10,19 +10,19 @@ const pageVariants = {
 
 const blockVariants = {
     initial: side => ({opacity: 0, x: 0, y: (side ? 200 : -200)}),
-    animate: side => ({opacity: 1, x: 0, y: 0, transition: {delay: 0.4}}),
+    animate: side => ({opacity: 1, x: 0, y: 0, transition: {delay: 0.6}}),
     exit: side => ({opacity: 0, x: 0,y : (side ? 200 : -200)})
 }
 
 const textVariants = {
     initial: side => ({opacity: 0, x: 0, y: (side ? -200 : 200)}),
-    animate: side => ({opacity: 1, x: 0, y: 0, transition: {delay: 0.8}}),
+    animate: side => ({opacity: 1, x: 0, y: 0, transition: {delay: 1.2}}),
     exit: side => ({opacity: 0, x: 0,y : (side ? -200 : 200)})
 }
 
 const iconVariants = {
     initial: {opacity: 0, x: 0, y: 0, scale: 0.8},
-    animate: {opacity: 1, x: 0, y: 0, scale: [0.8,1.2,1], transition: {delay: 1.2}},
+    animate: {opacity: 1, x: 0, y: 0, scale: [0.8,1.2,1], transition: {delay: 1.6}},
     exit: {opacity: 0, x: 0,y : 0, scale: 0.8}
 }
 

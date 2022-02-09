@@ -2,22 +2,29 @@ import BlogCardList from "../../components/BlogCardList"
 import {items} from "../../data/blog.data"
 import { motion } from "framer-motion"
 
-const variants = {
-    initial: {opacity: 0, x: -200},
-    animate: {opacity: 1, x: 0},
-    exit: {}
+const pageVariants = {
+    initial: {opacity: 0, scale: 0.4},
+    animate: {opacity: 1, scale: [1.2,0.8,1], transition: {delay: 0.2}},
+    exit: {opacity: 0, scale: 0.4}
 }
 
 const blog = () => {
 
+    const blogString = ['B', 'L', 'O', 'G']
+
     return (
-        <motion.div initial = "initial" animate = "animate" exit = "exit" variants = {variants} className = "flex justify-center items-center text-center mx-5">
+        <motion.div initial = "initial" animate = "animate" exit = "exit" variants = {pageVariants} className = "flex justify-center items-center text-center mx-5">
             <div>
                 <br />
                 <br />
-                <h1 className = "font-bold text-5xl">BLOG</h1>
+                <div className = "flex flex-wrap justify-center items-center text-center">
+                    {blogString.map((char,idx) => {
+                        return <motion.span key = {idx} whileHover = {{scale: 1.5}} className = "flex font-bold text-5xl md:text-9xl">{char}</motion.span>
+                    })}
+                </div>
                 <br />
-                <h4 className = "text-3xl">Stay Tuned In For The Upcoming Blogs !</h4>
+                <br />
+                <h4 className = "text-4xl md:text-6xl">Stay Tuned In For The Upcoming Blogs !</h4>
                 <BlogCardList items = {items} />
             </div>
         </motion.div>
