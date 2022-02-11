@@ -14,14 +14,14 @@ const textVariants = {
 
 const Home = () => {
 
-    const name = ['D', 'R', 'A', 'G', 'O', 'N']
+    const nameString = ['D', 'R', 'A', 'G', 'O', 'N']
 
     return (
         <motion.div initial = "initial" animate = "animate" exit = "exit" variants = {pageVariants} className = "flex justify-center items-center h-screen text-center mx-10">
             <div className = "glass px-10 py-10 my-auto mt-20 md:my-0">
                 <motion.div initial = "initial" animate = "animate" exit = "exit" variants = {textVariants} className = "" >
                     <h1 className = "flex justify-center items-center flex-wrap text-center text-6xl md:text-7xl">
-                        Hi, I am  {name.map((char,idx) => {
+                        Hi, I am  {nameString.map((char,idx) => {
                             return <motion.strong key = {idx} whileHover = {{y: Math.round(Math.random()) ? -40 : 40}} className = "flex text-5xl md:text-9xl">{char}</motion.strong>
                         })}  !
                     </h1>

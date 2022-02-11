@@ -10,7 +10,7 @@ const pageVariants = {
 
 const skills = () => {
 
-    const techStackString = ['T', 'E', 'C', 'H', ' ', 'S', 'T', 'A', 'C', 'K']
+    const techStackString = ['T', 'E', 'C', 'H', '-', 'S', 'T', 'A', 'C', 'K']
     const languagesString = ['L', 'A', 'N', 'G', 'U', 'A', 'G', 'E', 'S']
     const webDevelopmentString = ['W', 'E', 'B', '-', 'D', 'E', 'V', 'E', 'L', 'O', 'P', 'M', 'E', 'N', 'T']
     const databaseSystemsString = ['D', 'A', 'T', 'A', 'B', 'A', 'S', 'E', '-', 'S', 'Y', 'S', 'T', 'E', 'M', 'S']

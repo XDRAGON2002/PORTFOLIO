@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <div className = "sticky top-0 glass relative z-10">
-            <nav className = "hidden my-4 mx-4 text-1xl md:block">
+            <nav className = "hidden my-4 mx-4 text-lg font-semibold md:block">
                 <ul className = "flex justify-end">
                     <li className = "mx-2">
                         <Link href = "/">
@@ -65,10 +65,10 @@ const Navbar = () => {
                 </ul>
             </nav>
             <div className = "block flex justify-end md:hidden">
-                {!show && <button className = "my-4 mx-6 text-1xl" onClick = {handleShow}><img src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png"/></button>}
-                {show && <nav className = "my-4 mx-6 text-1xl">
+                {!show && <button className = "my-4 mx-6 text-lg font-semibold" onClick = {handleShow}><img src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png"/></button>}
+                {show && <nav className = "my-4 mx-6 text-lg font-semibold">
                 <ul className = "flex flex-col items-end justify-end" onClick = {handleShow}>
-                    <button className = "mx-2 text-1xl"><img src="https://img.icons8.com/material-rounded/24/ffffff/close-window.png"/></button>
+                    <button className = "mx-2 text-lg font-semibold"><img src="https://img.icons8.com/material-rounded/24/ffffff/close-window.png"/></button>
                     <li className = "mx-2 my-1">
                         <Link href = "/">
                             <div className = "flex">
