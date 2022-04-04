@@ -1,4 +1,4 @@
-export const languages = [
+export const skillItems = [
 
     {
         id : "1",
@@ -44,11 +44,7 @@ export const languages = [
         id : "47",
         title : "TypeScript",
         link : "https://img.icons8.com/color/96/000000/typescript.png"
-    }
-]
-
-export const web_dev = [
-
+    },
     {
         id : "5",
         title : "React",
@@ -123,11 +119,7 @@ export const web_dev = [
         id : "48",
         title : "Framer Motion",
         link : "https://user-images.githubusercontent.com/38039349/60953119-d3c6f300-a2fc-11e9-9596-4978e5d52180.png"
-    }
-]
-
-export const database_systems = [
-
+    },
     {
         id : "10",
         title : "MySQL",
@@ -143,10 +135,6 @@ export const database_systems = [
         title : "MongoDB",
         link : "https://img.icons8.com/color/96/000000/mongodb.png"
     },
-]
-
-export const machine_learning = [
-
     {
         id : "13",
         title : "TensorFlow",
@@ -166,11 +154,7 @@ export const machine_learning = [
         id : "46",
         title : "PyTorch",
         link : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/640px-PyTorch_logo_icon.svg.png"
-    }
-]
-
-export const devops_cloud = [
-
+    },
     {
         id : "18",
         title : "Docker",
@@ -206,10 +190,6 @@ export const devops_cloud = [
         title : "Vercel",
         link : "https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67"
     },
-]
-
-export const tools = [
-
     {
         id : "15",
         title : "Git",
