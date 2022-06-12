@@ -1,5 +1,60 @@
 export const items = [
     {
+        id : "9",
+        title : "Fake News Predictor",
+        tech : [
+            "icons/python--v1.png",
+            "icons/typescript.png",
+            "icons/tensorflow.png",
+            "icons/fastapi.svg",
+            "icons/apple-touch-icon.png",
+            "icons/material-ui.png",
+            "icons/docker.png"
+        ],
+        body : `
+        Application to predict if the provided news is true or false.
+        Utilizes BERT transformer model with accuracy of 98% to identify fake news headings.
+        Consists of an user friendly UI which is also efficient at the same time.
+        `,
+        link : "https://github.com/XDRAGON2002/Fake-News-Predictor"
+    },
+    {
+        id : "8",
+        title : "Never Waste",
+        tech : [
+            "icons/python--v1.png",
+            "icons/javascript.png",
+            "icons/tensorflow.png",
+            "icons/fastapi.svg",
+            "icons/apple-touch-icon.png",
+            // "icons/chakraui.png",
+            "icons/firebase.png",
+            "icons/docker.png",
+            "icons/google-cloud.png"
+        ],
+        body : `
+        The proposed solution for the GDSC Solution Challenge 2022, which aims to end world hunger by allowing easy sharing of food that can be consumed by others.
+        Utilizes a CNN model with accuracy of 90% to identify food items.
+        Consists of an attractive UI which is aimed at improving user access.
+        `,
+        link : "https://github.com/XDRAGON2002/never-waste"
+    },
+    {
+        id : "7",
+        title : "Game Recommendation System",
+        tech : [
+            "https://img.icons8.com/color/48/000000/python--v1.png",
+            "icons/bash.png",
+            "icons/heroku.png"
+        ],
+        body : `
+        A basic game recommendation system based on non modeling approach.
+        Used basic concept of NLP in order to implement the entire system from scratch.
+        Highly efficient and accurate.
+        `,
+        link : "https://github.com/XDRAGON2002/game-recommendation-system"
+    },
+    {
         id : "1",
         title : "Augmented Reality Sudoku Solver",
         tech : [

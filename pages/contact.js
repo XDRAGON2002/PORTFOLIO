@@ -1,5 +1,5 @@
-import {FaGithub,FaLinkedin} from "react-icons/fa"
-import {SiCodeforces,SiCodechef,SiHackerrank,SiHackerearth} from "react-icons/si"
+import {FaGithub,FaLinkedin,FaKaggle,FaStackOverflow,FaMedium} from "react-icons/fa"
+import {SiCodeforces,SiCodechef,SiHackerrank,SiHackerearth,SiLeetcode} from "react-icons/si"
 import { motion } from "framer-motion"
 
 const pageVariants = {
@@ -103,7 +103,15 @@ const contact = () => {
                                     <br />
                                     <motion.a initial = "initial" animate = "animate" exit = "exit" variants = {iconVariants} whileHover = {{scale: 1.2, transition: {duration: 0.3}}} className = "py-2 px-1" href = "https://www.hackerrank.com/DRAGON2002"><SiHackerrank size = {70}/></motion.a>
                                     <br />
-                                    <motion.a initial = "initial" animate = "animate" exit = "exit" variants = {iconVariants} whileHover = {{scale: 1.2, transition: {duration: 0.3}}} className = "py-2 px-1" href = "https://www.hackerearth.com/@anant422"><SiHackerearth size = {70}/></motion.a>
+                                    <motion.a initial = "initial" animate = "animate" exit = "exit" variants = {iconVariants} whileHover = {{scale: 1.2, transition: {duration: 0.1}}} className = "py-2 px-1" href = "https://www.hackerearth.com/@anant422"><SiHackerearth size = {70}/></motion.a>
+                                    <br />
+                                    <motion.a initial = "initial" animate = "animate" exit = "exit" variants = {iconVariants} whileHover = {{scale: 1.2, transition: {duration: 0.1}}} className = "py-2 px-1" href = "https://leetcode.com/DRAGON2002"><SiLeetcode size = {70}/></motion.a>
+                                    <br />
+                                    <motion.a initial = "initial" animate = "animate" exit = "exit" variants = {iconVariants} whileHover = {{scale: 1.2, transition: {duration: 0.1}}} className = "py-2 px-1" href = "https://www.kaggle.com/dragon2002"><FaKaggle size = {70}/></motion.a>
+                                    <br />
+                                    <motion.a initial = "initial" animate = "animate" exit = "exit" variants = {iconVariants} whileHover = {{scale: 1.2, transition: {duration: 0.1}}} className = "py-2 px-1" href = "https://stackoverflow.com/users/18444978/dragon2002"><FaStackOverflow size = {70}/></motion.a>
+                                    <br />
+                                    <motion.a initial = "initial" animate = "animate" exit = "exit" variants = {iconVariants} whileHover = {{scale: 1.2, transition: {duration: 0.1}}} className = "py-2 px-1" href = "https://medium.com/@anantvijay3"><FaMedium size = {70}/></motion.a>
                                 </div>
                             </p>
                         </motion.div>

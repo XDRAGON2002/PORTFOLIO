@@ -3,241 +3,241 @@ export const skillItems = [
     {
         id : "1",
         title : "Python",
-        link : "https://img.icons8.com/color/96/000000/python--v1.png"
+        link : "icons/python--v1.png"
     },
     {
         id : "2",
         title : "JavaScript",
-        link : "https://img.icons8.com/color/96/000000/javascript.png"
+        link : "icons/javascript.png"
     },
     {
         id : "3",
         title : "C++",
-        link : "https://img.icons8.com/color/96/000000/c-plus-plus-logo.png"
+        link : "icons/c-plus-plus-logo.png"
     },
     {
         id : "4",
         title : "Bash",
-        link : "https://img.icons8.com/plasticine/100/000000/bash.png"
+        link : "icons/bash.png"
     }, 
     {
         id : "25",
         title : "CSS",
-        link : "https://img.icons8.com/color/96/000000/css3.png"
+        link : "icons/css3.png"
     },
     {
         id : "26",
         title : "C",
-        link : "https://img.icons8.com/color/96/000000/c-programming.png"
+        link : "icons/c-programming.png"
     },
     {
         id : "43",
         title : "HTML",
-        link : "https://img.icons8.com/color/96/000000/html-5.png"
+        link : "icons/html-5.png"
     },
     {
         id : "45",
         title : "Go",
-        link : "https://img.icons8.com/color/96/000000/golang.png"
+        link : "icons/golang.png"
     },
     {
         id : "47",
         title : "TypeScript",
-        link : "https://img.icons8.com/color/96/000000/typescript.png"
+        link : "icons/typescript.png"
     },
     {
         id : "5",
         title : "React",
-        link : "https://img.icons8.com/plasticine/100/000000/react.png"
+        link : "icons/react.png"
     },
     {
         id : "6",
         title : "Bootstrap",
-        link : "https://img.icons8.com/color/96/000000/bootstrap.png"
+        link : "icons/bootstrap.png"
     },
     {
         id : "40",
         title : "Tailwind CSS",
-        link : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
+        link : "icons/Tailwind_CSS_Logo.svg.png"
     },
     {
         id : "37",
         title : "Redux",
-        link : "https://img.icons8.com/color/96/000000/redux.png"
+        link : "icons/redux.png"
     },
     {
         id : "29",
         title : "NextJS",
-        link : "https://images.ctfassets.net/hb3id6ag4raq/6NcXL0fTlSXR9tVL14LYJ/c6a2a3dea44cbf46826cd6d5596b5797/apple-touch-icon.png"
+        link : "icons/apple-touch-icon.png"
     },
     {
         id : "22",
         title : "GatsbyJS",
-        link : "https://img.icons8.com/fluency/96/000000/gatsbyjs.png"
+        link : "icons/gatsbyjs.png"
     },
     {
         id : "32",
         title : "MUI",
-        link : "https://img.icons8.com/color/96/000000/material-ui.png"
+        link : "icons/material-ui.png"
     },
     {
         id : "38",
         title : "Firebase",
-        link : "https://img.icons8.com/color/96/000000/firebase.png"
+        link : "icons/firebase.png"
     },
     {
         id : "7",
         title : "Django",
-        link : "https://img.icons8.com/color/96/000000/django.png"
+        link : "icons/django.png"
     },
     {
         id : "8",
         title : "Flask",
-        link : "https://img.icons8.com/fluency/96/000000/flask.png"
+        link : "icons/flask.png"
     },
     {
         id : "9",
         title : "NodeJS",
-        link : "https://img.icons8.com/color/96/000000/nodejs.png"
+        link : "icons/nodejs.png"
     },
     {
         id : "42",
         title : "ExpressJS",
-        link : "https://camo.githubusercontent.com/6686b9ef0e21e13c9e7c846340303765c0f36e40a0490bcad453ea9d0d433ea0/68747470733a2f2f7777772e6d656d656e746f746563682e696e2f6173736574732f696d616765732f69636f6e732f657870726573732e706e67"
+        link : "icons/68747470733a2f2f7777772e6d656d656e746f746563682e696e2f6173736574732f696d616765732f69636f6e732f657870726573732e706e67.png"
     },
     {
         id : "39",
         title : "GraphQL",
-        link : "https://img.icons8.com/color/96/000000/graphql.png"
+        link : "icons/graphql.png"
     },
     {
         id : "44",
         title : "FastAPI",
-        link : "https://cdn.worldvectorlogo.com/logos/fastapi.svg"
+        link : "icons/fastapi.svg"
     },
     {
         id : "48",
         title : "Framer Motion",
-        link : "https://user-images.githubusercontent.com/38039349/60953119-d3c6f300-a2fc-11e9-9596-4978e5d52180.png"
+        link : "icons/60953119-d3c6f300-a2fc-11e9-9596-4978e5d52180.png"
     },
     {
         id : "10",
         title : "MySQL",
-        link : "https://img.icons8.com/color/96/000000/mysql-logo.png"
+        link : "icons/mysql-logo.png"
     },
     {
         id : "11",
         title : "PostgreSQL",
-        link : "https://img.icons8.com/color/96/000000/postgreesql.png"
+        link : "icons/postgreesql.png"
     },
     {
         id : "12",
         title : "MongoDB",
-        link : "https://img.icons8.com/color/96/000000/mongodb.png"
+        link : "icons/mongodb.png"
     },
     {
         id : "13",
         title : "TensorFlow",
-        link : "https://img.icons8.com/color/96/000000/tensorflow.png"
+        link : "icons/tensorflow.png"
     },
     {
         id : "14",
         title : "OpenCV",
-        link : "https://img.icons8.com/color/96/000000/opencv.png"
+        link : "icons/opencv.png"
     },
     {
         id : "30",
         title : "Keras",
-        link : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png"
+        link : "icons/1200px-Keras_logo.svg.png"
     },
     {
         id : "46",
         title : "PyTorch",
-        link : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/640px-PyTorch_logo_icon.svg.png"
+        link : "icons/640px-PyTorch_logo_icon.svg.png"
     },
     {
         id : "18",
         title : "Docker",
-        link : "https://img.icons8.com/fluency/96/000000/docker.png"
+        link : "icons/docker.png"
     },
     {
         id : "23",
         title : "Kubernetes",
-        link : "https://img.icons8.com/color/96/000000/kubernetes.png"
+        link : "icons/kubernetes.png"
     },
     {
         id : "24",
         title : "Jenkins",
-        link : "https://img.icons8.com/color/96/000000/jenkins.png"
+        link : "icons/jenkins.png"
     },
     {
         id : "21",
         title : "GCP",
-        link : "https://img.icons8.com/color/96/000000/google-cloud.png"
+        link : "icons/google-cloud.png"
     },
     {
         id : "19",
         title : "Heroku",
-        link : "https://img.icons8.com/color/96/000000/heroku.png"
+        link : "icons/heroku.png"
     },
     {
         id : "27",
         title : "Netlify",
-        link : "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg"
+        link : "icons/netlify-icon.svg"
     },
     {
         id : "28",
         title : "Vercel",
-        link : "https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67"
+        link : "icons/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67.png"
     },
     {
         id : "15",
         title : "Git",
-        link : "https://img.icons8.com/color/96/000000/git.png"
+        link : "icons/git.png"
     },
     {
         id : "16",
         title : "GitHub",
-        link : "https://img.icons8.com/material-outlined/96/ffffff/github.png"
+        link : "icons/github.png"
     },
     {
         id : "17",
         title : "Linux",
-        link : "https://img.icons8.com/color/96/000000/linux--v1.png"
+        link : "icons/linux--v1.png"
     },
     {
         id : "35",
         title : "Scrapy",
-        link : "https://cdn2.hubspot.net/hubfs/4367560/Imported_Blog_Media/scrapy.png"
+        link : "icons/scrapy.png"
     },
     {
         id : "20",
         title : "Latex",
-        link : "https://img.icons8.com/color/96/000000/latex.png"
+        link : "icons/latex.png"
     },
     {
         id : "31",
         title : "Postman",
-        link : "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+        link : "icons/getpostman-icon.svg"
     },
     {
         id : "33",
         title : "Ubuntu",
-        link : "https://img.icons8.com/color/96/000000/ubuntu--v1.png"
+        link : "icons/ubuntu--v1.png"
     },
     {
         id : "34",
         title : "Kali",
-        link : "https://img.icons8.com/color/96/4a90e2/kali-linux.png"
+        link : "icons/kali-linux.png"
     },
     {
         id : "36",
         title : "Canva",
-        link : "https://img.icons8.com/doodle/96/000000/canva.png"
+        link : "icons/canva.png"
     },
     {
         id : "41",
         title : "GitHub Actions",
-        link : "https://avatars.githubusercontent.com/u/44036562?s=280&v=4"
+        link : "icons/44036562.png"
     },
 ]

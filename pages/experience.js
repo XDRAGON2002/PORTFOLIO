@@ -13,7 +13,7 @@ const experience = () => {
     const experienceString = ['E', 'X', 'P', 'E', 'R', 'I', 'E', 'N', 'C', 'E']
 
     return (
-        <motion.div initial = "initial" animate = "animate" exit = "exit" variants = {pageVariants} className = "flex justify-center items-center text-center mx-10">
+        <motion.div initial = "initial" animate = "animate" exit = "exit" variants = {pageVariants} className = "flex flex-col justify-center items-center text-center mx-10">
             <div>
                 <br />
                 <br />

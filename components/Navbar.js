@@ -18,7 +18,7 @@ const Navbar = () => {
                         <Link href = "/">
                             <div className = "flex cursor-pointer">
                                 ABOUT &#160;
-                                <img src="https://img.icons8.com/material-rounded/24/ffffff/home.png"/>
+                                <img src="icons/home.png"/>
                             </div>
                         </Link>
                     </li>
@@ -26,7 +26,7 @@ const Navbar = () => {
                         <Link href = "/skills">
                             <div className = "flex cursor-pointer">
                                 SKILLS &#160;
-                                <img src="https://img.icons8.com/material-sharp/24/ffffff/resume.png"/>
+                                <img src="icons/resume.png"/>
                             </div>
                         </Link>
                     </li >
@@ -34,7 +34,7 @@ const Navbar = () => {
                         <Link href = "/experience">
                             <div className = "flex cursor-pointer">
                                 EXPERIENCE &#160;
-                                <img src="https://img.icons8.com/material-sharp/24/ffffff/internship.png"/>
+                                <img src="icons/internship.png"/>
                             </div>
                         </Link>
                     </li>
@@ -42,7 +42,7 @@ const Navbar = () => {
                         <Link href = "/projects">
                             <div className = "flex cursor-pointer">
                                 PROJECTS &#160;
-                                <img src="https://img.icons8.com/material-rounded/24/ffffff/group-of-projects.png"/>
+                                <img src="icons/group-of-projects.png"/>
                             </div>
                         </Link>
                     </li>
@@ -50,7 +50,7 @@ const Navbar = () => {
                         <Link href = "/contact">
                             <div className = "flex cursor-pointer">
                                 CONTACT &#160;
-                                <img src="https://img.icons8.com/material-rounded/24/ffffff/contact-card.png"/>
+                                <img src="icons/contact-card.png"/>
                             </div>
                         </Link>
                     </li>
@@ -58,7 +58,7 @@ const Navbar = () => {
                         <Link href = "/blog">
                             <div className = "flex cursor-pointer">
                                 BLOG &#160;
-                                <img src="https://img.icons8.com/material-rounded/24/ffffff/blog.png"/>
+                                <img src="icons/blog.png"/>
                             </div>
                         </Link>
                     </li>
@@ -68,12 +68,12 @@ const Navbar = () => {
                 {!show && <button className = "my-4 mx-6 text-lg font-semibold" onClick = {handleShow}><img src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png"/></button>}
                 {show && <nav className = "my-4 mx-6 text-lg font-semibold">
                 <ul className = "flex flex-col items-end justify-end" onClick = {handleShow}>
-                    <button className = "mx-2 text-lg font-semibold"><img src="https://img.icons8.com/material-rounded/24/ffffff/close-window.png"/></button>
+                    <button className = "mx-2 text-lg font-semibold"><img src="icons/close-window.png"/></button>
                     <li className = "mx-2 my-1">
                         <Link href = "/">
                             <div className = "flex">
                                 ABOUT &#160;
-                                <img src="https://img.icons8.com/material-rounded/24/ffffff/home.png"/>
+                                <img src="icons/home.png"/>
                             </div>
                         </Link>
                     </li>
@@ -81,7 +81,7 @@ const Navbar = () => {
                         <Link href = "/skills">
                             <div className = "flex">
                                 SKILLS &#160;
-                                <img src="https://img.icons8.com/material-sharp/24/ffffff/resume.png"/>
+                                <img src="icons/resume.png"/>
                             </div>
                         </Link>
                     </li >
@@ -89,7 +89,7 @@ const Navbar = () => {
                         <Link href = "/experience">
                             <div className = "flex">
                                 EXPERIENCE &#160;
-                                <img src="https://img.icons8.com/material-sharp/24/ffffff/internship.png"/>
+                                <img src="icons/internship.png"/>
                             </div>
                         </Link>
                     </li>
@@ -97,7 +97,7 @@ const Navbar = () => {
                         <Link href = "/projects">
                             <div className = "flex">
                                 PROJECTS &#160;
-                                <img src="https://img.icons8.com/material-rounded/24/ffffff/group-of-projects.png"/>
+                                <img src="icons/group-of-projects.png"/>
                             </div>
                         </Link>
                     </li>
@@ -105,7 +105,7 @@ const Navbar = () => {
                         <Link href = "/contact">
                             <div className = "flex">
                                 CONTACT &#160;
-                                <img src="https://img.icons8.com/material-rounded/24/ffffff/contact-card.png"/>
+                                <img src="icons/contact-card.png"/>
                             </div>
                         </Link>
                     </li>
@@ -113,7 +113,7 @@ const Navbar = () => {
                         <Link href = "/blog">
                             <div className = "flex">
                                 BLOG &#160;
-                                <img src="https://img.icons8.com/material-rounded/24/ffffff/blog.png"/>
+                                <img src="icons/blog.png"/>
                             </div>
                         </Link>
                     </li>
