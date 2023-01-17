@@ -122,11 +122,11 @@ const Home = () => {
 								Software Developer
 							</h1>
 							<p className="mb-12">
-								I'm Anant Vijay, a software developer that likes to be referred to by my moniker "DRAGON"
+								I&apos;m Anant Vijay, a software developer that likes to be referred to by my moniker &quot;DRAGON&quot;
 								<br />
 								I am a Full Stack Web Developer that loves tinkering with Artificial Intelligence and Machine Learning and am also a DevOps enthusiast
 								<br />
-								I'm also an avid Open Source contributor, write Technical Blogs and give talks at various events about my journey and mentor newcomers
+								I&apos;m also an avid Open Source contributor, write Technical Blogs and give talks at various events about my journey and mentor newcomers
 							</p>
 							<a className="bg-green-500 text-white p-4 flex w-36 text-1xl rounded-xl justify-around font-semibold" href="mailto:anantvijay3@gmail.com">
 								Say Hello
@@ -153,9 +153,9 @@ const Home = () => {
 						<img className="h-72 w-72 rounded-xl" src="DP.jfif" />
 						<div className="flex flex-col space-y-20 justify-center items-center grow mx-12 md:items-start">
 							<p>
-								I'm well versed in the technical domains of AI/ML, Web Development and DevOps.
+								I&apos;m well versed in the technical domains of AI/ML, Web Development and DevOps.
 								<br />
-								I'm willing to collaborate together on Open Source projects, am also interested in mentoring people that need help in tech and also like to give technical talks at various tech events, communities and conferences.
+								I&apos;m willing to collaborate together on Open Source projects, am also interested in mentoring people that need help in tech and also like to give technical talks at various tech events, communities and conferences.
 								<br />
 								Feel free to reach out to me in case of any internship or job opportunites as well. Would also be willing to work as a freelancer too.
 							</p>
@@ -288,7 +288,7 @@ const Home = () => {
 			<div>
 				<div className="pt-28 md:mx-32 md:pt-48 flex flex-col items-center">
 					<h1 className="text-5xl font-semibold mb-4">Projects</h1>
-					<h1 className="text-2xl mb-4 text-green-400">Things I've Created</h1>
+					<h1 className="text-2xl mb-4 text-green-400">Things I&apos;ve Created</h1>
 					<div className="grid grid-cols-1 gap-y-8">
 						<div className="flex flex-col items-center py-10 px-10 mx-4 shadow-sm shadow-green-400 rounded-xl space-y-4">
 							<h1 className="text-3xl font-semibold pb-4">Quote Voter</h1>
@@ -443,7 +443,7 @@ const Home = () => {
 			<div>
 				<div className="pt-28 md:mx-32 md:pt-48 flex flex-col items-center">
 					<h1 className="text-5xl font-semibold mb-4">Blog</h1>
-					<h1 className="text-2xl mb-4 text-green-400">Blogs I've Written</h1>
+					<h1 className="text-2xl mb-4 text-green-400">Blogs I&apos;ve Written</h1>
 					<div className="mx-12">
 						I am also an active Technical Blog writer, I try to post blogs every week
 						<br />
